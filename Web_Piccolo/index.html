@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Piccolo Automóviles</title>
+    <link rel="stylesheet" href="scss/estilo.css" />
+    <script src="js/bootstrap.min.js"></script>
+    <link href="http://fonts.googleapis.com/css?family=Oswald" rel="stylesheet" type="text/css" />
+    <link rel="icon" href="img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="scss/all.css" />
+    <script>
+        const popoverTriggerList = document.querySelectorAll('[data-bs-toggle="popover"]')
+        const popoverList = [...popoverTriggerList].map(popoverTriggerEl => new bootstrap.Popover(popoverTriggerEl))
+    </script>
+</head>
+
+<body class="d-flex flex-column">
+    <div class="container text-center flex-grow-1">
+        <div class="row header">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="index.html"><img src="img/piccolo-logo.png" alt="" /></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link mb-0 h5" href="index.html"><b><i class="fa-solid fa-house"></i> Home</b></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mb-0 h5" href="paginas/index2.html"><b>Subastas</b></a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle mb-0 h5" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><b><i class="fa-solid fa-star"></i> Marcas</b></a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item h5" href="paginas/index3.html">BMW</a></li>
+                                <li><a class="dropdown-item h5" href="paginas/index3.html">Mercedes</a></li>
+                                <li><a class="dropdown-item h5" href="paginas/index3.html">Audi</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control" type="search" placeholder="Buscar..." />
+                        <button class="btn" type="submit"><b><i class="fa-solid fa-magnifying-glass"></i></b></button>
+                    </form>
+                </div>
+            </nav>
+        </div>
+        <div class="row body">
+            <div id="carouselExampleSlidesOnly" class="col-md-6 carousel slide" data-bs-ride="carousel">
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <img src="img/gallery/slider-img-1.jpg" class="d-block" alt="...">
+      </div>
+      <div class="carousel-item">
+        <img src="img/gallery/slider-img-2.jpg" class="d-block" alt="...">
+      </div>
+    </div>
+  </div>
+    <div class="col-md-6 span4 texto mt-3 mt-sm-0">
+        <h3>Bienvenido a Piccolo. <br />
+        La perfección no es cosa pequeña, pero está hecha de pequeñas cosas..</h3>
+        <p class="lead d-none d-md-block">Basta con salir a la calle en las grandes ciudades para darse cuenta del problema de tráfico que sufrimos.</p>
+        <p class="d-none d-md-block"> Que los coches pequeños estén copando cada vez más el mercado automovilístico de las grandes urbes no es casualidad. Modelos creados desde cero para circular entre los edificios, en calles estrechas y con pocos espacios para aparcar. Es la nueva moda europea.</p>
+        <a href="paginas/index4.html"><button type="button" class="btn btn-lg" data-bs-toggle="popover" data-bs-title="Contactanos" data-bs-content="+34 625217567 julianramosjimenez986@gmail.com">Contactanos <i class="fa-solid fa-phone"></i></button></a>
+    </div>
+        </div>
+    </div>
+    </div>
+    <footer class="d-md-none">
+        <div class="container text-center cfooter py-3">
+            <p>&copy; Piccolo: Subastas en línea para tu próximo viaje - <a href="paginas/index4.html"><button type="button" class="btn" data-bs-toggle="popover" data-bs-title="Contactanos" data-bs-content="+34 625217567 julianramosjimenez986@gmail.com">Contactanos <i class="fa-solid fa-phone"></i></button></a> <button class="btn"><i class="fa-brands fa-whatsapp"></i></button> <button class="btn"><i class="fa-brands fa-facebook"></i></button> <button class="btn"><i class="fa-brands fa-instagram"></i></button> <button class="btn"><i class="fa-brands fa-linkedin"></i></button></p>
+        </div>
+    </footer>
+
+    <footer class="fixed-bottom d-none d-md-block">
+        <div class="container text-center cfooter py-3">
+            <p>&copy; 2023 Piccolo: Subastas en línea para tu próximo viaje - <a href="paginas/index4.html"><button type="button" class="btn" data-bs-toggle="popover" data-bs-title="Contactanos" data-bs-content="+34 625217567 julianramosjimenez986@gmail.com">Contactanos <i class="fa-solid fa-phone"></i></button></a> <button class="btn"><i class="fa-brands fa-whatsapp"></i></button> <button class="btn"><i class="fa-brands fa-facebook"></i></button> <button class="btn"><i class="fa-brands fa-instagram"></i></button> <button class="btn"><i class="fa-brands fa-linkedin"></i></button></p>
+        </div>
+    </footer>
+</body>
+
+</html>

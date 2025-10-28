@@ -1,0 +1,106 @@
+@import "../css/bootstrap.min.css";
+* {
+  font-family: "Oswald", sans-serif;
+}
+
+body {
+  border-top: 3px solid #ff5531;
+  background-image: url("../img/fondo19.jpg");
+  background-size: cover;
+  background-position: center;
+}
+
+h1,
+h2,
+h3,
+h4 {
+  text-shadow: 1px 1px 0 #fdfdfd, 2px 2px 0 rgba(81, 81, 81, 0.5), 0 0 1px #fdfdfd;
+}
+
+.header {
+  background-color: #ff5531;
+  border-radius: 10px;
+  margin-top: 1%;
+}
+
+.texto {
+  padding-bottom: 10px;
+  background-color: #d3d3d3;
+  border-radius: 5px;
+}
+
+.form-control {
+  margin-right: 2%;
+}
+
+.form-control:hover {
+  border-color: #ff5531;
+}
+
+.btn {
+  background-color: #ff5531;
+  border: 1px solid black;
+  color: black;
+}
+
+.btn:hover {
+  background-color: black;
+  color: #ff5531;
+}
+
+.btn2 {
+  background-color: black;
+  color: #ff5531;
+}
+
+.body {
+  margin-top: 5%;
+  text-align: left;
+}
+
+.carousel-item * {
+  height: 100%;
+  width: 100%;
+}
+
+.nav-item {
+  border-radius: 5px;
+}
+
+.nav-item:hover {
+  background-color: #ff5531;
+}
+
+.card {
+  background-color: #d3d3d3;
+}
+
+.caja {
+  background-color: #d3d3d3;
+}
+
+footer {
+  margin-top: 50px;
+  background-color: #ff5531;
+}
+
+.fondo {
+  background-color: #d3d3d3;
+  border-radius: 10px;
+  width: 50%;
+}
+
+.distinto {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 600px) {
+  .fondo {
+    width: 100%;
+  }
+}
+.btn-form {
+  margin: 2%;
+}/*# sourceMappingURL=estilo.css.map */

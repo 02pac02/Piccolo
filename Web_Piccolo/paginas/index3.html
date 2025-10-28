@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Piccolo Automóviles</title>
+    <link rel="stylesheet" href="../scss/estilo.css" />
+    <script src="../js/bootstrap.min.js"></script>
+    <link href="http://fonts.googleapis.com/css?family=Oswald" rel="stylesheet" type="text/css" />
+    <link rel="icon" href="../img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../scss/all.css" />
+</head>
+<body class="d-flex flex-column">
+    <div class="container text-center flex-grow-1">
+        <div class="row header">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="../index.html"><img src="../img/piccolo-logo.png" alt="" /></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link mb-0 h5" href="../index.html"><b><i class="fa-solid fa-house"></i> Home</b></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mb-0 h5" href="index2.html"><b>Subastas</b></a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle mb-0 h5" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><b><i class="fa-solid fa-star"></i> Marcas</b></a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item h5" href="index3.html">BMW</a></li>
+                                <li><a class="dropdown-item h5" href="index3.html">Mercedes</a></li>
+                                <li><a class="dropdown-item h5" href="index3.html">Audi</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control" type="search" placeholder="Buscar..." />
+                        <button class="btn" type="submit"><b><i class="fa-solid fa-magnifying-glass"></i></b></button>
+                    </form>
+                </div>
+            </nav>
+        </div>
+        <div class="row body">
+            <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+                <li class="nav-item" role="presentation">
+                  <button class="btn active" id="pills-home-tab" data-bs-toggle="pill" data-bs-target="#pills-home" type="button" role="tab" aria-controls="pills-home" aria-selected="true">BMW</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="btn" id="pills-profile-tab" data-bs-toggle="pill" data-bs-target="#pills-profile" type="button" role="tab" aria-controls="pills-profile" aria-selected="false">Mercedes</button>
+                </li>
+                <li class="nav-item" role="presentation">
+                  <button class="btn" id="pills-contact-tab" data-bs-toggle="pill" data-bs-target="#pills-contact" type="button" role="tab" aria-controls="pills-contact" aria-selected="false">Audi</button>
+                </li>
+              </ul>
+              <div class="tab-content caja" id="pills-tabContent">
+                <div class="tab-pane fade show active" id="pills-home" role="tabpanel" aria-labelledby="pills-home-tab" tabindex="0">
+                    <h1>BMW <img src="../img/bmw.png" alt=""></h1>
+                    <p class="d-none d-md-block">BMW, o Bayerische Motoren Werke AG, es una empresa multinacional alemana que se especializa en la fabricación de vehículos de lujo, motocicletas y motores. Fundada en 1916, BMW es conocida por producir automóviles de alto rendimiento y premium con un enfoque en la dinámica de conducción, la tecnología innovadora y el diseño distintivo. Los vehículos de la compañía suelen estar asociados con una experiencia de conducción deportiva y dinámica. La línea de productos de BMW incluye una variedad de automóviles, SUV y motocicletas, y la marca tiene una reputación por combinar el lujo con un fuerte énfasis en la ingeniería de precisión y la tecnología de vanguardia.</p>
+                    <table class="table">
+                        <tbody>
+                          <tr>
+                            <td><img src="../img/car1.jpg" class="img-fluid" alt="Imagen 1"></td>
+                            <td><img src="../img/car2.jpg" class="img-fluid" alt="Imagen 2"></td>
+                            <td><img src="../img/car4.jpg" class="img-fluid" alt="Imagen 3"></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                </div>
+                <div class="tab-pane fade" id="pills-profile" role="tabpanel" aria-labelledby="pills-profile-tab" tabindex="0">
+                    <h1>Mercedes <img src="../img/mercedes.png" alt=""></h1>
+                    <p class="d-none d-md-block">Mercedes-Benz, comúnmente conocida como Mercedes, es una marca de automóviles de lujo y vehículos comerciales perteneciente a la empresa alemana Daimler AG. Fundada en 1926, la marca Mercedes-Benz es reconocida mundialmente por sus automóviles elegantes, de alto rendimiento y con un enfoque en la innovación tecnológica y la seguridad.
+
+                        Mercedes-Benz ha sido pionera en numerosas tecnologías automotrices a lo largo de los años y ha establecido un estándar en la industria del automóvil en áreas como la seguridad, el diseño y la eficiencia. La marca ofrece una amplia gama de vehículos, desde sedanes y SUVs hasta deportivos y vehículos eléctricos, satisfaciendo las necesidades de clientes que buscan tanto lujo como calidad de conducción.
+                        
+                        El emblema de Mercedes-Benz, conocido como la estrella de tres puntas, simboliza la visión de la marca de dominar en tierra, mar y aire. En resumen, Mercedes-Benz es sinónimo de lujo, prestigio y una larga tradición de excelencia en la fabricación de automóviles.</p>
+                    <table class="table">
+                        <tbody>
+                          <tr>
+                            <td><img src="../img/car5.jpg" class="img-fluid" alt="Imagen 1"></td>
+                            <td><img src="../img/car6.jpeg" class="img-fluid" alt="Imagen 2"></td>
+                            <td><img src="../img/car7.webp" class="img-fluid" alt="Imagen 3"></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                </div>
+                <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab" tabindex="0">
+                    <h1>Audi <img src="../img/audi.png" alt=""></h1>
+                    <p class="d-none d-md-block">Audi es una marca de automóviles de lujo con origen en Alemania y forma parte del grupo Volkswagen. Fundada en 1909, Audi se ha destacado por su compromiso con la ingeniería de alta calidad, el diseño innovador y la tecnología avanzada.
+
+                        La marca Audi se ha ganado una reputación por sus vehículos bien construidos, con énfasis en la atención al detalle y un enfoque en la experiencia de conducción. Audi ofrece una amplia gama de automóviles, desde compactos hasta SUVs y vehículos deportivos de alto rendimiento. La combinación de lujo, rendimiento y tecnología ha hecho que los automóviles Audi sean populares entre aquellos que buscan una experiencia de conducción sofisticada y vanguardista.
+                        
+                        Audi también ha sido líder en la implementación de tecnologías como tracción en las cuatro ruedas (Quattro), sistemas de asistencia a la conducción y diseño interior elegante. La marca se esfuerza por mantener una imagen moderna y progresiva, continuando con su legado de excelencia en la industria automotriz.</p>
+                    <table class="table">
+                        <tbody>
+                          <tr>
+                            <td><img src="../img/car8.webp" class="img-fluid" alt="Imagen 1"></td>
+                            <td><img src="../img/car3.avif" class="img-fluid" alt="Imagen 2"></td>
+                            <td><img src="../img/car4.jpg" class="img-fluid" alt="Imagen 3"></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                </div>
+              </div>
+        </div>
+        
+    </div>
+    </div>
+    <footer>
+      <div class="container text-center cfooter py-3">
+        <p>&copy; 2023 Piccolo: Subastas en línea para tu próximo viaje - <a href="index4.html"><button type="button" class="btn" data-bs-toggle="popover" data-bs-title="Contactanos" data-bs-content="+34 625217567 julianramosjimenez986@gmail.com">Contactanos <i class="fa-solid fa-phone"></i></button></a> <button class="btn"><i class="fa-brands fa-whatsapp"></i></button> <button class="btn"><i class="fa-brands fa-facebook"></i></button> <button class="btn"><i class="fa-brands fa-instagram"></i></button> <button class="btn"><i class="fa-brands fa-linkedin"></i></button></p>
+    </div>
+    </footer>
+</body>
+
+</html>

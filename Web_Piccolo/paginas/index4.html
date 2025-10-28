@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Piccolo Automóviles</title>
+    <link rel="stylesheet" href="../scss/estilo.css" />
+    <script src="../js/bootstrap.min.js"></script>
+    <link href="http://fonts.googleapis.com/css?family=Oswald" rel="stylesheet" type="text/css" />
+    <link rel="icon" href="../img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="../scss/all.css" />
+</head>
+<body class="d-flex flex-column">
+    <div class="container text-center flex-grow-1">
+        <div class="row header">
+            <nav class="navbar navbar-expand-lg navbar-light">
+                <a class="navbar-brand" href="../index.html"><img src="../img/piccolo-logo.png" alt="" /></a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation"><span class="navbar-toggler-icon"></span></button>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link mb-0 h5" href="../index.html"><b><i class="fa-solid fa-house"></i> Home</b></a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link mb-0 h5" href="index2.html"><b>Subastas</b></a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle mb-0 h5" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"><b><i class="fa-solid fa-star"></i> Marcas</b></a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item h5" href="index3.html">BMW</a></li>
+                                <li><a class="dropdown-item h5" href="index3.html">Mercedes</a></li>
+                                <li><a class="dropdown-item h5" href="index3.html">Audi</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control" type="search" placeholder="Buscar..." />
+                        <button class="btn" type="submit"><b><i class="fa-solid fa-magnifying-glass"></i></b></button>
+                    </form>
+                </div>
+            </nav>
+        </div>
+        <div class="row body distinto">
+            <div class="fondo">
+                <h2>Formulario de Contacto</h2>
+                <form>
+                  <label for="nombre">Nombre:</label>
+                  <input class="form-control" type="text" id="nombre" name="nombre" required>
+              
+                  <label for="correo">Correo:</label>
+                  <input class="form-control" type="email" id="correo" name="correo" required>
+              
+                  <label for="telefono">Teléfono:</label>
+                  <input class="form-control" type="tel" id="telefono" name="telefono" required>
+                  <label for="tipo">Tipo:</label>
+                    <select id="tipo" class="form-control" name="tipo" required>
+                    <option value="incidencia">Incidencia</option>
+                    <option value="pregunta">Pregunta</option>
+                    </select>
+
+                <label for="descripcion">Descripción:</label>
+                <textarea class="form-control" id="descripcion" name="descripcion" rows="2" required></textarea>
+              
+                  <input class="btn btn-lg btn-form" type="submit" value="Enviar">
+                </form>
+              </div>
+        </div>
+        
+    </div>
+    </div>
+    <footer>
+        <div class="container text-center cfooter py-3">
+            <p>&copy; 2023 Piccolo: Subastas en línea para tu próximo viaje - <a href="index4.html"><button type="button" class="btn" data-bs-toggle="popover" data-bs-title="Contactanos" data-bs-content="+34 625217567 julianramosjimenez986@gmail.com">Contactanos <i class="fa-solid fa-phone"></i></button></a> <button class="btn"><i class="fa-brands fa-whatsapp"></i></button> <button class="btn"><i class="fa-brands fa-facebook"></i></button> <button class="btn"><i class="fa-brands fa-instagram"></i></button> <button class="btn"><i class="fa-brands fa-linkedin"></i></button></p>
+        </div>
+    </footer>
+</body>
+
+</html>

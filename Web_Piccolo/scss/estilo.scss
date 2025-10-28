@@ -1,0 +1,116 @@
+@import "../css/bootstrap.min.css";
+//Colores utilizados
+$color: #ff5531;
+$color2: #d3d3d3;
+
+//Tipologia de letra de toda la pagina
+* {
+  font-family: "Oswald", sans-serif;
+}
+
+//Linea que se ve en la parte superior y la imagen de fondo
+body {
+  border-top: 3px solid $color;
+  background-image: url("../img/fondo19.jpg");
+  background-size: cover;
+  background-position: center;
+}
+//Las sombras de las frases mas grandes
+h1,
+h2,
+h3,
+h4 {
+  text-shadow: 1px 1px 0 #fdfdfd, 2px 2px 0 rgba(81, 81, 81, 0.5),
+    0 0 1px #fdfdfd;
+}
+//Color y posicion de la cabecera
+.header {
+  background-color: $color;
+  border-radius: 10px;
+  margin-top: 1%;
+}
+//Texto de la pagina principal
+.texto {
+  padding-bottom: 10px;
+  background-color: $color2;
+  border-radius: 5px;
+}
+//Aplico margen en el buscador
+.form-control {
+  margin-right: 2%;
+}
+.form-control:hover {
+  border-color: $color;
+}
+//Todos los botones de la aplicacion llevan estos estilos
+.btn {
+  background-color: $color;
+  border: 1px solid black;
+  color: black;
+}
+
+.btn:hover {
+  background-color: black;
+  color: $color;
+}
+
+.btn2 {
+  background-color: black;
+  color: $color;
+}
+//Hace el contenido se vea bien posicionado
+.body {
+  margin-top: 5%;
+  text-align: left;
+}
+//Cambia la dimension del contenido del carrusel
+.carousel-item * {
+  height: 100%;
+  width: 100%;
+}
+//Cambia los botones de navegacion
+.nav-item {
+  border-radius: 5px;
+}
+
+.nav-item:hover {
+  background-color: $color;
+}
+
+//Cambia el color de fondo de los cards
+.card {
+  background-color: $color2;
+}
+
+//Cambia el contenido de los cards
+.caja{
+  background-color: $color2;
+}
+
+//Coloca la posicion del footer y el color
+footer {
+  margin-top: 50px;
+  background-color: $color;
+}
+
+.fondo{
+  background-color: $color2;
+  border-radius: 10px;
+  width: 50%;
+}
+
+.distinto{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+@media (max-width: 600px) {
+  .fondo{
+    width: 100%;
+  }
+}
+
+.btn-form{
+  margin: 2%;
+}
